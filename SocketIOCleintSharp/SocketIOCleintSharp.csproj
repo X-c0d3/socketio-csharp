@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SocketIOClient" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Socket.Io.Client.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Socket.Io.Client.Core" Version="1.2.0" />
+  </ItemGroup>
+</Project>
