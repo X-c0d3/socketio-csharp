@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="Socket.Io.Client.Core" Version="1.2.0" />
+    <PackageReference Include="SocketIOClient" Version="3.0.5" />
+    <PackageReference Include="System.Text.Json" Version="6.0.0" />
   </ItemGroup>
 </Project>
